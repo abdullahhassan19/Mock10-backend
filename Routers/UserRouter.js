@@ -65,8 +65,8 @@ UserRouter.post("/calculateEMI", (req, res) => {
   res.send({
     msg: "Successful",
     EMI: E,
-    "Interest Payable": interest,
-    "Total Payment": total,
+    InterestPayable: interest,
+    TotalPayment: total,
   });
 });
 UserRouter.post("/logout",  (req, res) => {
